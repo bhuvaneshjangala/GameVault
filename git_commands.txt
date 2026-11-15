@@ -1,0 +1,76 @@
+GIT COMMANDS USED IN GAMEVAULT ASSIGNMENT
+
+1. git init
+Initializes a new Git repository in the current folder.
+
+2. git branch -M main
+Renames the current branch to main.
+
+3. git add index.html about.html
+Stages the HTML files for the initial commit.
+
+4. git commit -m "Initial project structure"
+Creates the first commit.
+
+5. git add index.html
+Stages the modified home page.
+
+6. git commit -m "Update home page content"
+Records the second commit.
+
+7. git branch feature
+Creates a new branch named feature.
+
+8. git switch feature
+Switches to the feature branch.
+
+9. git add about.html
+Stages the modified about page.
+
+10. git commit -m "Add feature description"
+Records the feature branch changes.
+
+11. git switch main
+Switches back to the main branch.
+
+12. git merge --no-ff feature -m "Merge feature branch into main"
+Merges the feature branch into main and creates a visible merge commit.
+
+13. git log --oneline --graph --decorate --all
+Displays the commit history and branch relationships.
+
+14. git add .gitignore
+Stages the Git ignore configuration.
+
+15. git commit -m "Add Git ignore rules"
+Commits the .gitignore file.
+
+16. git check-ignore debug.log temp/sample.txt
+Checks whether the specified files are ignored.
+
+17. git add temporary.txt
+Stages the temporary file.
+
+18. git commit -m "Add temporary file for revert demonstration"
+Creates an additional commit for the undo demonstration.
+
+19. git revert --no-edit HEAD
+Creates a new commit that reverses the latest commit.
+
+20. git status
+Displays the current repository status.
+
+21. git remote add origin https://github.com/bhuvaneshjangala/GameVault.git
+Connects the local repository to GitHub.
+
+22. git remote -v
+Displays the configured remote URLs.
+
+23. git push -u origin main
+Pushes the main branch to GitHub.
+
+24. git push -u origin feature
+Pushes the feature branch to GitHub.
+
+25. git push
+Pushes subsequent commits to the configured upstream branch.
